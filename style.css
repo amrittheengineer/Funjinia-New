@@ -1,0 +1,58 @@
+@font-face {
+  font-family: Arista;
+  src: url("arista.ttf");
+}
+
+body {
+  height: 1300px;
+}
+
+body .tnea {
+  font-size: 1rem;
+  margin-top: 10px;
+  background-color: #0b0c5e;
+  color: #ffdc2c;
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 2px;
+}
+
+body .header {
+  width: 100%;
+}
+
+body .tnea-no {
+  font-size: 1.2rem;
+  display: block;
+  color: #2c9645;
+  padding: 7px;
+  color: #0b0c5e;
+  background-color: #ffdc2c;
+  padding: 2px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+body .logo {
+  height: 40px;
+}
+
+body .lwf {
+  font-family: Arista;
+  color: col(gr);
+  float: right;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+          animation: glow 1s ease-in-out infinite alternate;
+}
+
+body .title {
+  text-align: center;
+  font-size: 5rem;
+  font-family: Arista;
+  margin-bottom: 0;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+          animation: glow 1s ease-in-out infinite alternate;
+}
+/*# sourceMappingURL=style.css.map */
