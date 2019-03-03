@@ -7,8 +7,14 @@ body {
   height: 1300px;
 }
 
+body .top-head {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
 body .tnea {
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin-top: 10px;
   background-color: #0b0c5e;
   color: #ffdc2c;
@@ -25,7 +31,7 @@ body .tnea-no {
   font-size: 1.2rem;
   display: block;
   color: #2c9645;
-  padding: 7px;
+  padding: 5px;
   color: #0b0c5e;
   background-color: #ffdc2c;
   padding: 2px;
@@ -41,7 +47,7 @@ body .lwf {
   font-family: Arista;
   color: col(gr);
   float: right;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 0;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
           animation: glow 1s ease-in-out infinite alternate;
@@ -49,7 +55,7 @@ body .lwf {
 
 body .title {
   text-align: center;
-  font-size: 5rem;
+  font-size: 3.4rem;
   font-family: Arista;
   margin-bottom: 0;
   -webkit-animation: glow 1s ease-in-out infinite alternate;

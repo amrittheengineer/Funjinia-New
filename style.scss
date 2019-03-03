@@ -5,8 +5,13 @@
 
 body{
     height: 1300px;
+    .top-head{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+    }
     .tnea{
-        font-size: 1rem;
+        font-size: 0.8rem;
         margin-top: 10px;
         background-color: #0b0c5e;
         // background-color: #2c9645;
@@ -23,7 +28,7 @@ body{
         font-size: 1.2rem;
         display: block;
         color: #2c9645;
-        padding: 7px;
+        padding: 5px;
         // background-color: #0b0c5e;
         color: #0b0c5e;
         background-color: #ffdc2c;
@@ -40,16 +45,14 @@ body{
         font-family: Arista;
         color: col(gr);
         float: right;
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin-bottom: 0;
         animation: glow 1s ease-in-out infinite alternate;
     }
     .title{
-        // background: -webkit-linear-gradient(#eee, #333);
-        // background-clip: text;
-        // -webkit-text-fill-color: transparent;
+        
         text-align: center;
-        font-size: 5rem;
+        font-size: 3.4rem;
         font-family: Arista;
         margin-bottom: 0;
         animation: glow 1s ease-in-out infinite alternate;
