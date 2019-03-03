@@ -5,11 +5,22 @@
 
 body {
   height: 1300px;
+  font-family: Arista;
+  font-family: 'Barlow', sans-serif;
 }
 
 body .top-head {
   position: fixed;
   height: 100%;
+  width: 100%;
+}
+
+body .navbar {
+  background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(#fd9644));
+  background-image: linear-gradient(to right, #fff, #fd9644);
+}
+
+body .header {
   width: 100%;
 }
 

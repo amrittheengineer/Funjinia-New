@@ -5,17 +5,26 @@
 
 body{
     height: 1300px;
+    font-family: Arista;
+    font-family: 'Barlow', sans-serif;
     .top-head{
+        
         position: fixed;
         height: 100%;
+        width: 100%;
+    }
+    .navbar{
+        background-image: linear-gradient(to right, #fff, #fd9644);
+        // padding: 4px;
+    }
+    .header{
+        
         width: 100%;
     }
     .tnea{
         font-size: 0.8rem;
         margin-top: 10px;
         background-color: #0b0c5e;
-        // background-color: #2c9645;
-        // background-color: #ffdc2c;
         color: #ffdc2c;
         padding: 8px;
         border-radius: 6px;
