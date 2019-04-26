@@ -1,0 +1,69 @@
+@font-face{
+    font-family: Arista;
+    src:  url("arista.ttf");
+}
+
+body{
+    height: 1300px;
+    font-family: Arista;
+    font-family: 'Barlow', sans-serif;
+    .top-head{
+        
+        position: fixed;
+        height: 100%;
+        width: 100%;
+    }
+    .navbar{
+        background-image: linear-gradient(to right, #fff, #fd9644);
+        // padding: 4px;
+    }
+    .header{
+        
+        width: 100%;
+    }
+    .tnea{
+        font-size: 0.8rem;
+        margin-top: 10px;
+        background-color: #0b0c5e;
+        color: #ffdc2c;
+        padding: 8px;
+        border-radius: 6px;
+        margin-bottom: 2px;
+    }
+    .header{
+        width: 100%;
+    }
+    .tnea-no{
+        font-size: 1.2rem;
+        display: block;
+        color: #2c9645;
+        padding: 5px;
+        // background-color: #0b0c5e;
+        color: #0b0c5e;
+        background-color: #ffdc2c;
+        padding: 2px;
+        font-weight: bold;
+        border-radius: 6px;
+    }
+    .logo{
+        height: 40px;
+        
+
+    }
+    .lwf{
+        font-family: Arista;
+        color: col(gr);
+        float: right;
+        font-size: 1rem;
+        margin-bottom: 0;
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+    .title{
+        
+        text-align: center;
+        font-size: 3.4rem;
+        font-family: Arista;
+        margin-bottom: 0;
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+}

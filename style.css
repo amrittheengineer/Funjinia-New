@@ -1,75 +1,150 @@
-@font-face {
-  font-family: Arista;
-  src: url("arista.ttf");
+.page {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  height: 1300px;
-  font-family: Arista;
-  font-family: 'Barlow', sans-serif;
+  overflow-x: hidden;
+  background-color: #fff;
+  font-family: 'Raleway', sans-serif;
+  color: #09ddf2;
+  background-color: #000;
 }
 
-body .top-head {
-  position: fixed;
-  height: 100%;
-  width: 100%;
+#reg-form-box {
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
 
-body .navbar {
-  background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(#fd9644));
-  background-image: linear-gradient(to right, #fff, #fd9644);
+.fnote {
+  position: absolute;
 }
 
-body .header {
-  width: 100%;
+.logo {
+  background: #fff;
+  height: 100vh;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 92%, 0 73%);
+          clip-path: polygon(0 0, 100% 0, 100% 92%, 0 73%);
 }
 
-body .tnea {
-  font-size: 0.8rem;
-  margin-top: 10px;
-  background-color: #0b0c5e;
-  color: #ffdc2c;
-  padding: 8px;
-  border-radius: 6px;
-  margin-bottom: 2px;
+.fnote-head {
+  padding: 25px 50px;
+  text-shadow: 0px 0px 4px #fff;
+  font-size: 1.8rem;
 }
 
-body .header {
-  width: 100%;
+.reg {
+  position: relative;
+  top: -140px;
+  margin-bottom: -100px;
 }
 
-body .tnea-no {
-  font-size: 1.2rem;
+.btn {
+  width: 230px;
   display: block;
-  color: #2c9645;
-  padding: 5px;
-  color: #0b0c5e;
-  background-color: #ffdc2c;
-  padding: 2px;
-  font-weight: bold;
-  border-radius: 6px;
+  margin-bottom: 40px;
 }
 
-body .logo {
-  height: 40px;
+.fnote-msg {
+  padding: 30px 140px;
 }
 
-body .lwf {
-  font-family: Arista;
-  color: col(gr);
-  float: right;
-  font-size: 1rem;
-  margin-bottom: 0;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-          animation: glow 1s ease-in-out infinite alternate;
+.btn-outline-info {
+  border-color: #09ddf2;
+  color: #09ddf2;
 }
 
-body .title {
+.btn-outline-info:hover {
+  background-color: #09ddf2;
+  color: #000;
+  border-color: #09ddf2;
+}
+
+.workshop {
+  color: #000;
+  margin: 50px;
+}
+
+.col-card {
+  margin-bottom: 20px;
+}
+
+.register {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 30px;
+  background-color: #fff;
+  -webkit-transition: all linear 1s;
+  transition: all linear 1s;
+  border-radius: 13px;
+  padding: 30px 10px;
+}
+
+#nav-bar {
+  opacity: 0.8;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 9px #09ddf2;
+          box-shadow: 0px 0px 9px #09ddf2;
+  background-color: #6190e8;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.bg-dark {
+  background-color: #000 !important;
+  color: #09ddf2;
+}
+
+.navbar-brand, .navbar-light {
+  color: #09ddf2;
+}
+
+#a-nav {
+  color: #090909;
+  -webkit-transition: all linear 400ms;
+  transition: all linear 400ms;
+}
+
+#a-nav:hover {
+  color: #000;
+}
+
+.register:hover {
+  -webkit-box-shadow: 5px 5px 20px #09ddf2;
+          box-shadow: 5px 5px 20px #09ddf2;
+}
+
+.form-box {
+  padding: 0px 50px;
+}
+
+.reg-box {
+  color: #000;
+  opacity: 0.9;
+}
+
+#what {
+  height: 500px;
+  color: #09ddf2;
+  background-color: #000;
+  position: absolute;
   text-align: center;
-  font-size: 3.4rem;
-  font-family: Arista;
-  margin-bottom: 0;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-          animation: glow 1s ease-in-out infinite alternate;
+  top: 40%;
+  width: 100%;
+}
+
+#particles-js {
+  height: 500px;
+}
+
+.pattern {
+  background-color: #0f0222;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2309ddf2' fill-opacity='0.44' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 /*# sourceMappingURL=style.css.map */
